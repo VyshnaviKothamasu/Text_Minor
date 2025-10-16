@@ -52,5 +52,7 @@ for sentence in sample_sentences:
             score = score + 1
         if is_negative:
             score = score - 1
+        if is_neutral:
+            score=score+0
         sentence_score += score
     print(f"{sentence} ===> {sentence_score}")
