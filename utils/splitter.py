@@ -96,5 +96,5 @@ def main():
         print("❌ Invalid choice. Please run the program again.")
 
 
-if __name__ == '__main__':
+if __name__== '__main__':
     main()
